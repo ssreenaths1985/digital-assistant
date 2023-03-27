@@ -1,0 +1,1187 @@
+intents:
+- greet
+- how_you
+- mood_great
+- mood_unhappy
+- bot_challenge
+- what_you_know
+- thanks
+- mission_karmayogi
+- cbp
+- mdo
+- cbp_provider
+- piaa
+- fracing_toolkit
+- hubs
+- event_hub
+- career_hub
+- network_hub
+- learn_hub
+- discuss_hub
+- competency_hub
+- curator
+- tag
+- network_connections
+- knowledge_resource
+- badges
+- competency
+- unpublished_content
+- playlist
+- goals
+- module
+- capacity_building_unit
+- course
+- resource
+- program
+- cohorts
+- trending_tags
+- upvote
+- downvote
+- assessment_engine
+- dashboard
+- competency_dictionary
+- self_awareness_index
+- cbp_competency_score
+- cqs
+- coding_framework
+- competency_owning_department
+- competency_building_unit
+- cs_passbook
+- f_s_d_portfolio_assessments
+- organisation_score
+- tcs_score
+- competency_score
+- ipr_declaration
+- engagement_score
+- authoring_tool
+- trust_score
+- wpcas
+- activities
+- algorithm
+- annual_capacity_building_plan
+- api
+- artifical_intelligence
+- assessment_instruments
+- assessment_agency
+- behavioural_competency
+- criticality
+- criterion_validity
+- content_directory
+- competency_gap
+- compatibility
+- desired_competencies
+- dictionaries
+- dictionary_of_activities
+- dictionary_of_roles
+- dictionary_of_positions
+- dictionary_of_competencies
+- directories
+- directories_of_participating_ministries
+- directories_of_users
+- directories_of_cbp_providers
+- domain_competencies
+- engagement
+- fracing_process
+- functional_competencies
+- gem
+- gfr2017
+- impact_score
+- instructional_design
+- igot_spv
+- learner_score
+- marquee_competencies
+- micro_questions
+- negd
+- normalisation
+- organisational_score_of_mdo
+- piaa_agency
+- piaa_application
+- piaa_score
+- public_procurement
+- reliability
+- roles
+- tcs
+- courses_completed
+- mdos_onboarded
+- courses_live_or_draft_or_review
+- courses_started
+- users_onboarded
+- cbp_provider_leaderboard
+- connection_requests_recieved
+- courses_by_provider_stats
+- top_10_courses_by_ratings
+- top_10_mdos_by_course_completions
+- top_10_courses_by_completions
+- top_10_mdos_by_live_courses
+- top_10_mdos_by_users_onboarded
+- user_engagement_by_factor
+- number_of_courses_added
+- mdo_top_performers
+- mdo_roles
+- mdo_top_courses
+- training_budget
+- trigger_period
+- validity
+- virtual_learning_platforms
+- learning_course
+- post_tags
+- courses_by_provider
+- cbp_matches_to_my_competencies
+- my_connections
+- all_tags
+- trending_discussions_posts
+- recent_discussions
+- recent_contents
+- add_competency
+- remove_competency
+- contact_details
+- upvoted_discussions
+- competency_list_type
+- accept_connection_request
+- send_connection_request
+- people_with_competency
+
+slots:
+  firstname:
+    type: unfeaturized
+    auto_fill: false
+  department:
+    type: unfeaturized
+    auto_fill: false
+  competency:
+    type: unfeaturized
+    auto_fill: false
+  requested_slot:
+    type: unfeaturized
+
+entities:
+- course
+- competency
+- competencytype
+- department
+- tag
+- mdo
+- date
+- number
+- filter
+- firstname
+- factor
+
+actions:
+- utter_greet
+- utter_how_you
+- utter_mood_great
+- utter_mood_unhappy
+- utter_bot_challenge
+- utter_what_you_know
+- utter_thanks
+- fallback_action
+- utter_low_confidence
+- utter_out_of_scope
+- utter_mission_karmayogi
+- utter_cbp
+- utter_mdo
+- utter_cbp_provider
+- utter_piaa
+- utter_fracing_toolkit
+- utter_hubs
+- utter_competency_hub
+- utter_event_hub
+- utter_discuss_hub
+- utter_network_hub
+- utter_career_hub
+- utter_learn_hub
+- utter_curator
+- utter_tag
+- utter_competency
+- utter_network_connections
+- utter_knowledge_resource
+- utter_badges
+- utter_unpublished_content
+- utter_playlist
+- utter_goals
+- utter_module
+- utter_capacity_building_unit
+- utter_course
+- utter_resource
+- utter_program
+- utter_cohorts
+- utter_trending_tag
+- utter_upvote
+- utter_downvote
+- utter_ask_firstname
+- utter_ask_department
+- utter_ask_course
+- utter_ask_competency
+- utter_assessment_engine
+- utter_dashboard
+- utter_competency_dictionary
+- utter_self_awareness_index
+- utter_cbp_competency_score
+- utter_cqs
+- utter_coding_framework
+- utter_competency_owning_department
+- utter_competency_building_unit
+- utter_cs_passbook
+- utter_f_s_d_portfolio_assessments
+- utter_organisation_score
+- utter_tcs_score
+- utter_spv_score
+- utter_competency_score
+- utter_ipr_declaration
+- utter_engagement_score
+- utter_authoring_tool
+- utter_trust_score
+- utter_wpcas
+- utter_activities
+- utter_algorithm
+- utter_annual_capacity_building_plan
+- utter_api
+- utter_artifical_intelligence
+- utter_assessment_instruments
+- utter_assessment_agency
+- utter_behavioural_competency
+- utter_criticality
+- utter_criterion_validity
+- utter_content_directory
+- utter_competency_gap
+- utter_compatibility
+- utter_desired_competencies
+- utter_dictionaries
+- utter_dictionary_of_activities
+- utter_dictionary_of_roles
+- utter_dictionary_of_positions
+- utter_dictionary_of_competencies
+- utter_directories
+- utter_directories_of_participating_ministries
+- utter_directories_of_users
+- utter_directories_of_cbp_providers
+- utter_domain_competencies
+- utter_engagement
+- utter_fracing_process
+- utter_functional_competencies
+- utter_gem
+- utter_gfr2017
+- utter_impact_score
+- utter_instructional_design
+- utter_igot_spv
+- utter_learner_score
+- utter_marquee_competencies
+- utter_micro_questions
+- utter_negd
+- utter_normalisation
+- utter_organisational_score_of_mdo
+- utter_piaa_agency
+- utter_piaa_application
+- utter_piaa_score
+- utter_public_procurement
+- utter_reliability
+- utter_roles
+- utter_tcs
+- utter_training_budget
+- utter_trigger_period
+- utter_validity
+- utter_virtual_learning_platforms
+- utter_term_search
+- action_getadd_competency
+- action_getremove_competency
+- action_getall_tags
+- action_courses_completed
+- action_mdos_onboarded
+- action_courses_live_or_draft_or_review
+- action_courses_started
+- action_users_onboarded
+- action_cbp_provider_leaderboard
+- action_getconnection_requests_recieved
+- action_getlearning_course
+- action_getupvoted_discussions
+- action_getpost_tags
+- action_getcourses_by_provider
+- action_gettrending_discussions_posts
+- action_courses_by_provider_stats
+- action_top_10_courses_by_ratings
+- action_top_10_mdos_by_course_completions
+- action_top_10_courses_by_completions
+- action_top_10_mdos_by_live_courses
+- action_top_10_mdos_by_users_onboarded
+- action_user_engagement_by_factor
+- action_number_of_courses_added
+- action_getrecent_discussions
+- action_mdo_top_performers
+- action_mdo_roles
+- action_mdo_top_courses
+- action_getmy_connections
+- action_getrecent_contents
+- action_getcontact_details
+- action_gettrending_tags
+- action_getpeople_with_competency
+- action_getcbp_matches_to_my_competencies
+- action_getcompetency_list_type
+- action_getsend_connection_request
+- action_getaccept_connection_request
+
+responses:
+  utter_greet:
+  - custom:
+      blocks:
+      - type: response
+        text: Hi there !
+        intent: greet
+  utter_how_you:
+  - custom:
+      blocks:
+      - type: response
+        text: I am fine. Thank you
+        intent: how_you
+  utter_thanks:
+  - custom:
+      blocks:
+      - type: response
+        text: You are welcome. Is there anything else i can help you with?
+        intent: thanks
+  utter_bot_challenge:
+  - custom:
+      blocks:
+      - type: response
+        text: I am Vega, your smart assitant.
+        intent: bot_challenge
+  utter_what_you_know:
+  - custom:
+      blocks:
+      - type: response
+        text: I currently have information about iGOT terminologies, courses and resources. I can also tell you about connections and contact details.
+        intent: what_you_know
+  utter_mood_great:
+  - custom:
+      blocks:
+      - type: response
+        text: you look so happy today
+        intent: mood_great
+  utter_mood_unhappy:
+  - custom:
+      blocks:
+      - type: response
+        text: 
+        - how can i help you to cheer up?
+        intent: mood_unhappy
+  utter_mission_karmayogi:
+  - custom:
+      blocks:
+      - type: response
+        text: 
+        - Mission karmayogi is a new capacity-building scheme for civil servants aimed at upgrading the post-recruitment training mechanism of the officers and employees at all levels.
+        intent: mission_karmayogi
+  utter_cbp:
+  - custom:
+      blocks:
+      - type: response
+        text: Competency Building Product is content comprising of resources, courses, modules and programs which can be consumed by the government officials to enhance their competencies or attain new ones.
+        intent: cbp
+  utter_mdo:
+  - custom:
+      blocks:
+      - type: response
+        text: 
+        - MDO stands for Ministry, Department, Organisation
+        intent: mdo
+  utter_cbp_provider:
+  - custom:
+      blocks:
+      - type: response
+        text: 
+        - CBP providers are the entities who are responsible for providing CBP pertaining to various competencies which can be consumed by the government officials
+        intent: cbp_provider
+  utter_piaa:
+  - custom:
+      blocks:
+      - type: response
+        text: 
+        - This score will be given to a learner taking the PIAA by the PIAA provider. It is comprised of two component - 1) the level at which the competency has been assessed (1-5); and 2) the proficiency within that level (e.g. within these levels, an individual is excellent, good, average, poor). Every official will have to complete the PIAA testing both within the first three months of them joining a new position for all competencies the position requires (if they have not already been tested for that competency in the last 5 years), and again every time the official completes a CBP funded by the government.
+        intent: piaa
+  utter_fracing_toolkit:
+  - custom:
+      blocks:
+      - type: response
+        text: 
+        - FRAC tool
+        intent: fracing_toolkit
+  utter_hubs:
+  - custom:
+      blocks:
+      - type: response
+        text: 
+        - Network hub, discussion hub etc
+        intent: hubs
+  utter_competency_hub:
+  - custom:
+      blocks:
+      - type: response
+        text: 
+        - Competency hub is one of the key hubs in the iGOT platform detailing the roles, activities, competencies and knowledge resources for every position.
+        intent: competency_hub
+  utter_event_hub:
+  - custom:
+      blocks:
+      - type: response
+        text: 
+        - Event hub provides officials with the opportunity to share ideas through in-person and live online events.
+        intent: event_hub
+  utter_career_hub:
+  - custom:
+      blocks:
+      - type: response
+        text: 
+        - Career hub enables the government to solve the complex problem of encouraging lifelong learning, and finding the right person for the right job.
+        intent: career_hub
+  utter_network_hub:
+  - custom:
+      blocks:
+      - type: response
+        text: 
+        - Network hub enables officials to discover others in the government who, given past experiences, recognised competencies, and contribution to previous discussions on the platform, may be in a position to help solve a problem.
+        intent: network_hub
+  utter_learn_hub:
+  - custom:
+      blocks:
+      - type: response
+        text: 
+        - Learning hub is one among the many hubs that facilitates competency building through suitable courses, assessments and learning recommendations (i.e. CBPs).
+        intent: learn_hub
+  utter_discuss_hub:
+  - custom:
+      blocks:
+      - type: response
+        text: 
+        - Discuss hub provides officials with an opportunity to benefit from insights from previous discussions and to trigger new conversations around particular queries they may have.
+        intent: discuss_hub
+  utter_curator:
+  - custom:
+      blocks:
+      - type: response
+        text: 
+        - Curator
+        intent: curator
+  utter_tag:
+  - custom:
+      blocks:
+      - type: response
+        text: 
+        - TAGS
+        intent: tag
+  utter_network_connections:
+  - custom:
+      blocks:
+      - type: response
+        text: 
+        - Connections are the people (governement officials) who you are connected to in the iGOT platform. Your connections will be able to see the posts you have made, your profile details, your activites until you mark those as private
+        intent: network_connections
+  utter_knowledge_resource:
+  - custom:
+      blocks:
+      - type: response
+        text: 
+        - knowledge resources
+        intent: knowledge_resource
+  utter_badges:
+  - custom:
+      blocks:
+      - type: response
+        text: 
+        - Badges
+        intent: badges
+  utter_competency:
+  - custom:
+      blocks:
+      - type: response
+        text: 
+        - Competency
+        intent: competency
+  utter_unpublished_content:
+  - custom:
+      blocks:
+      - type: response
+        text: 
+        - unpublished contents
+        intent: unpublished_content
+  utter_playlist:
+  - custom:
+      blocks:
+      - type: response
+        text: 
+        - Playlist
+        intent: playlist
+  utter_module:
+  - custom:
+      blocks:
+      - type: response
+        text: 
+        - Module
+        intent: module
+  utter_goals:
+  - custom:
+      blocks:
+      - type: response
+        text: 
+        - Goals
+        intent: goals
+  utter_course:
+  - custom:
+      blocks:
+      - type: response
+        text: 
+        - A collection of Modules in the Content Directory makes a Course.
+        intent: course
+  utter_resource:
+  - custom:
+      blocks:
+      - type: response
+        text: 
+        - The smallest unit of the Content Directory on iGOT 2.0 is referred to as a resource.
+        intent: resource
+  utter_program:
+  - custom:
+      blocks:
+      - type: response
+        text: 
+        - A collection of courses in the Content Directory.
+        intent: program
+  utter_capacity_building_unit:
+  - custom:
+      blocks:
+      - type: capacity_building_unit
+        text: 
+        - capacity building unit
+        intent: capacity_building_unit
+  utter_cohorts:
+  - custom:
+      blocks:
+      - type: response
+        text: 
+        - Cohorts are the government officials who are currently going through the same CBPs as you.
+        intent: cohorts
+  utter_trending_tag:
+  - custom:
+      blocks:
+      - type: response
+        text: 
+        - Trending tag is a tag which is drawing the most attention or engagement of government officials in the iGOT platform. Tags which is mostly used which posting a discussion or the most searched tag qualities for being a trending tag.
+        intent: trending_tag
+  utter_upvote:
+  - custom:
+      blocks:
+      - type: response
+        text: 
+        - Upvote is related to the discussion hub. Upvoting a post or comment means you agree to what is being disussed or you find the post/comment to be useful.
+        intent: upvote
+  utter_downvote:
+  - custom:
+      blocks:
+      - type: response
+        text: 
+        - Downvote is the exact opposite of Upvote. Downvoting a post or comment means you do not agree to what is being disussed or you find the post/comment to be irrelevant and not so useful.
+        intent: downvote
+  utter_assessment_engine:
+  - custom:
+      blocks:
+      - type: response
+        text: 
+        - Assessment Engine
+        intent: assessment_engine
+  utter_competency_dictionary:
+  - custom:
+      blocks:
+      - type: response
+        text: 
+        - Competency Dictionary
+        intent: competency_dictionary
+  utter_dashboard:
+  - custom:
+      blocks:
+      - type: response
+        text: 
+        - Dashboard
+        intent: dashboard
+  utter_self_awareness_index:
+  - custom:
+      blocks:
+      - type: response
+        text: 
+        - Self Awareness Index
+        intent: self_awareness_index
+  utter_cbp_competency_score:
+  - custom:
+      blocks:
+      - type: response
+        text: 
+        - This score will be given to a learner on the completion of a CBP and its corresponding assessments. It is based on the learner’s performance on these assessments and contributes to the TCS (thereby the overall competency score of an individual).
+        intent: cbp_competency_score
+  utter_cqs:
+  - custom:
+      blocks:
+      - type: response
+        text: 
+        - Content Quality Score -The CQS is a combination of two scores - the first is provided through self-certification by the CBP provider; and the second is the score as assigned by a learner and auditor (as appointed by the SPV) of the CBP. When the two CQS are very close to each other, the trust score of the CBP becomes high.
+        intent: cqs
+  utter_coding_framework:
+  - custom:
+      blocks:
+      - type: response
+        text: 
+        - Coding Framework
+        intent: coding_framework
+  utter_competency_owning_department:
+  - custom:
+      blocks:
+      - type: response
+        text: 
+        - Competency Owning Department
+        intent: competency_owning_department
+  utter_competency_building_unit:
+  - custom:
+      blocks:
+      - type: response
+        text: 
+        - Competency Building Unit
+        intent: competency_building_unit
+  utter_cs_passbook:
+  - custom:
+      blocks:
+      - type: response
+        text: 
+        - CS Passbook
+        intent: cs_passbook
+  utter_f_s_d_portfolio_assessments:
+  - custom:
+      blocks:
+      - type: response
+        text: 
+        - f s d portfolio assessments
+        intent: f_s_d_portfolio_assessments
+  utter_organisation_score:
+  - custom:
+      blocks:
+      - type: response
+        text: 
+        - The organisation score is a composite score of every MDO, drawing upon many of the above- and aforementioned scores in addition to a score from the SPV from the quality audits. Every MDO will have an organisational score on the PM dashboard.
+        intent: organisation_score
+  utter_tcs_score:
+  - custom:
+      blocks:
+      - type: response
+        text: 
+        - The TCS is an algorithmically derived score that combines C-CS and PIAA score, and is informed by the trust scores of the PIAA and CBP. Combined with the WPCAS, it contributes to the competency score.
+        intent: tcs_score
+  utter_spv_score:
+  - custom:
+      blocks:
+      - type: response
+        text: 
+        - The SPV score will be the average of all MDOs’ organisational scores. The SPV exists to ensure the success of everyone else. The success of iGOT Karmayogi, therefore, is the success of its services (i.e. the SPV). This is the success of all the MDOs which, in turn, is the success of all the officials – when their competency gaps are narrowed, officials’ trust scores are increasing, the trust score of the CBP and PIAA providers increase, the impact scores of the CBPs increase, and so on. When all these scores are impacted, the organisational score increases – and thus, the SPV score also increases.
+        intent: spv_score
+  utter_competency_score:
+  - custom:
+      blocks:
+      - type: response
+        text: 
+        - Maintained in the Competency Passbook (CP), the competency score is calculated against the competencies a learner has been tested for. It will be algorithmically derived by suitably weighting- the workplace competency assessment score (WPCAS) and the testing competency score (TCS).
+        intent: competency_score
+  utter_ipr_declaration:
+  - custom:
+      blocks:
+      - type: response
+        text: 
+        - IPR Declaration
+        intent: ipr_declaration
+  utter_engagement_score:
+  - custom:
+      blocks:
+      - type: response
+        text: 
+        - The engagement score measures the user’s engagement with the platform. It directly correlates with platform acceptability and subsequent interaction with the platform. The score is calculated by measuring the behaviours users exhibit on the platform through their relationship with self, others and the content.
+        intent: engagement_score
+  utter_authoring_tool:
+  - custom:
+      blocks:
+      - type: response
+        text: 
+        - Authoring Tool
+        intent: authoring_tool
+  utter_trust_score:
+  - custom:
+      blocks:
+      - type: response
+        text: 
+        - The trust score is calculated on the basis of the accuracy of a stakeholder’s claim using an accuracy meter. It is the extent to which claims made by a stakeholder are found to be accurate and are verified by the processes put into place by the iGOTplatform. Trust scores will be calculated for an array of stakeholders - individual learners, HR managers, auditors, CBP providers, PIAA providers, etc.
+        intent: trust_score
+  utter_low_confidence:
+  - custom:
+      blocks:
+      - type: response
+        text: 
+        - Can you rephrase that please?
+        intent: low_confidence
+
+  utter_out_of_scope:
+  - custom:
+      blocks:
+      - type: response
+        text: 
+        - Sorry, I couldn't understand you. I can help you only with the data related to iGOT.
+        intent: low_confidence
+
+  utter_wpcas:
+  - custom:
+      blocks:
+      - type: response
+        text: 
+        - The WPCAS is an algorithmically derived score that combines the crowdsourced 360-degree assessment (self, manager, peer, subordinate) and is informed by the trust scores of those providing assessment.Combined with the TCS, it contributes to the competency score.
+        intent: wpcas
+
+  utter_activities:
+  - custom:
+      blocks:
+      - type: response
+        text:
+        -  Specific actions performed as part of an official role.
+        intent: activities
+
+  utter_algorithm:
+  - custom:
+      blocks:
+      - type: response
+        text: 
+        - A process or set of rules to be followed in calculations or other problem-solving operations, especially by a computer.
+        intent: algorithm
+
+  utter_annual_capacity_building_plan:
+  - custom:
+      blocks:
+      - type: response
+        text: 
+        - A document drafted by MDOs with details on how they will build the execution capacity of their department as a whole.
+        intent: annual_capacity_building_plan
+
+  utter_api:
+  - custom:
+      blocks:
+      - type: response
+        text: 
+        - An application programming interface is a connection between computers or between computer programs. It is a type of software interface, offering a service to other pieces of software. A document or standard that describes how to build such a connection or interface is called an API specification
+        intent: api
+
+  utter_artifical_intelligence:
+  - custom:
+      blocks:
+      - type: response
+        text: 
+        - The simulation of intelligence in machines that are programmed to think like humans and mimic their actions. May also apply to any machine that exhibits traits associated with the human mind like learning and problem-solving.
+        intent: artifical_intelligence
+
+  utter_assessment_instruments:
+  - custom:
+      blocks:
+      - type: response
+        text: 
+        - Activities developed to support the assessment method and collect the evidence of learners' competence. An assessment instrument could include oral and written questions. observation/demonstration checklists.
+        intent: assessment_instruments
+
+  utter_assessment_agency:
+  - custom:
+      blocks:
+      - type: response
+        text: 
+        - The agency that will design, conduct and score PIAA assessments. These agencies are independent of CBP providers, and so can test learners without any bias to maintain pass percentages. There are two main criteria for an AA - 1. Competent within the area they are assessing 2. Certified to design and deploy assessment instruments
+        intent: assessment_agency
+
+  utter_behavioural_competency:
+  - custom:
+      blocks:
+      - type: response
+        text: 
+        - The underlying characteristics – motives, traits, skills, aspects of one’s social image, values, social role or a body of knowledge – that can result in effective and/or superior performance in a job or role. Collectively, they can help a department plan their talent requirements.
+        intent: behavioural_competency
+
+  utter_criticality:
+  - custom:
+      blocks:
+      - type: response
+        text: 
+        - How important a competency is for an official vis-a-vis their competency gap.
+        intent: criticality
+
+  utter_criterion_validity:
+  - custom:
+      blocks:
+      - type: response
+        text: 
+        - Depicts how well a measure predicts the outcome for another measure. A test has this type of validity if it is useful in predicting performance or behavior in a past, present, or future situation.
+        intent: criterion_validity
+
+  utter_content_directory:
+  - custom:
+      blocks:
+      - type: response
+        text: 
+        - All content by CBPs put up on the platform will be stored in the Content Directory. The Content Directory will have all contents in various languages along with delivery mechanisms (text/audio/video), pricing, duration, taxonomies (usertags) and the competencies they help gain/improve. The directory will be organised at four levels. The first and smallest is resources. A collection of resources make a module, a collection of modules make a course and a collection of courses make a program. The content directory will store impact scores at the level at which the CBP provider is willing to unbundle and price.
+        intent: content_directory
+
+  utter_competency_gap:
+  - custom:
+      blocks:
+      - type: response
+        text: 
+        - The difference between the competencies a government official possesses and the competencies he is required to have for his job.
+        intent: competency_gap
+
+  utter_compatibility:
+  - custom:
+      blocks:
+      - type: response
+        text: 
+        - The commonality of score meaning across testing conditions including delivery modes, computer platforms, and scoring presentation.
+        intent: compatibility
+
+  utter_desired_competencies:
+  - custom:
+      blocks:
+      - type: response
+        text: 
+        - Competencies an official would like to build that are not necessarily required for their position.
+        intent: desired_competencies
+
+  utter_dictionaries:
+  - custom:
+      blocks:
+      - type: response
+        text: 
+        - A kind of registry that encompasses a list of terms accompanied by short descriptions of each term.
+        intent: dictionaries
+
+  utter_dictionary_of_activities:
+  - custom:
+      blocks:
+      - type: response
+        text: 
+        - This dictionary lists, describes and assigns a unique code for all activities that are distinctively described on iGOT 2.0. These activities are actions or steps executed, conducted or processed in a logical sequence by the incumbent to achieve an objective.
+        intent: dictionary_of_activities
+
+  utter_dictionary_of_roles:
+  - custom:
+      blocks:
+      - type: response
+        text: 
+        - This is a list of all the roles played by a certain position.
+        intent: dictionary_of_roles
+
+  utter_dictionary_of_positions:
+  - custom:
+      blocks:
+      - type: response
+        text: 
+        - This is a list of all positions along with a short description of the position in those entities whose FRACing has been completed.
+        intent: dictionary_of_positions
+
+  utter_dictionary_of_competencies:
+  - custom:
+      blocks:
+      - type: response
+        text: A competency dictionary consists of the listing of all competencies, their meanings and indicators that define them.
+        intent: dictionary_of_competencies
+
+  utter_directories:
+  - custom:
+      blocks:
+      - type: response
+        text: 
+        - A directory on iGOT 2.0 is bound together by a common identifier. For example, the directory of ministries and departments will contain a full list of all MDOs in the government with a unique code for each. Unlike dictionaries, directories contain only listings.
+        intent: directories
+
+  utter_directories_of_participating_ministries:
+  - custom:
+      blocks:
+      - type: response
+        text: 
+        - This will contain a list of all entities that have registered their intent to onboard iGOT 2.0 and paid up the per person annual subscription. they will be provided support to complete their FRACing process so that their positions, roles, activities and competencies can be onboarded after completing the iGOT 2.0 due diligence process.
+        intent: directories_of_participating_ministries
+
+  utter_directories_of_users:
+  - custom:
+      blocks:
+      - type: response
+        text: 
+        - This will list all users, details of CBPs completed by them as well as their competency score.
+        intent: directories_of_users
+
+
+  utter_directories_of_cbp_providers:
+  - custom:
+      blocks:
+      - type: response
+        text: 
+        - This is a list of all CBP providers along with their trust scores
+        intent: directories_of_cbp_providers
+
+
+  utter_domain_competencies:
+  - custom:
+      blocks:
+      - type: response
+        text: 
+        - Knowledge elements, skills and abilities that are usually specialised in nature and are applicable in a narrow set of organisations, functions or positions, May be defined for a specific department or ministry or organisation -- for example, the Department of Atomic Energy, or the Department of Biotechnology.
+        intent: domain_competencies
+
+
+  utter_engagement:
+  - custom:
+      blocks:
+      - type: response
+        text: 
+        - The quality of user experience vis-a-vis attributes like challenge, positive affect, endurability, aesthetic and sensory appeal, attention, feedback, variety/novelty, interactivity, and perceived user control. It comprises four stages of the user engagement process i) point of engagement, ii) period of engagement, iii) dis-engagement and iv) re-engagement.
+        intent: engagement
+
+
+  utter_fracing_process:
+  - custom:
+      blocks:
+      - type: response
+        text: 
+        - A 12-step process that starts with the setting of the Departmental FRACing and ends with uploading resultant competencies onto the iGOT Karmayogi platform.
+        intent: fracing_process
+
+  utter_functional_competencies:
+  - custom:
+      blocks:
+      - type: response
+        text: 
+        - Knowledge elements, skills and abilities that are applicable across many organisations, functions and positions. For example, project management, budgeting, communication skills etc are required for many roles across many departments.
+        intent: functional_competencies
+
+
+  utter_gem:
+  - custom:
+      blocks:
+      - type: response
+        text: 
+        - Government e-Marketplace is an online platform for public procurement in India. It was launched on August 9, 2016 by the Ministry of Commerce and Industry with the intention of creating an open and transparent procurement platform for government buyers and sellers.
+        intent: gem
+
+
+  utter_gfr2017:
+  - custom:
+      blocks:
+      - type: response
+        text: 
+        - General financial rules (GFR), 2017, are a compilation of rules and orders of the Government of India for matters involving public finances. All departments and organisations under the government and specified bodies have to observe these rules as executive instructions.
+        intent: gfr2017
+
+
+  utter_instructional_design:
+  - custom:
+      blocks:
+      - type: response
+        text: 
+        - Instructional design (ID), also known as instructional systems design (ISD), is the practice of systematically designing, developing and delivering instructional products and experiences, both digital and physical, in a consistent and reliable fashion toward an efficient, effective, appealing, engaging and inspiring acquisition of knowledge.
+        intent: instructional_design
+
+
+  utter_igot_spv:
+  - custom:
+      blocks:
+      - type: response
+        text: 
+        - A special purpose vehicle (SPV) is being established to implement the Public Service Capability and Productivity Enhancement Programme of which iGOT 2.0 is a part. The SPV will be a not-for-profit government-owned registered company. Besides others, it will be responsible for developing and hosting iGOT 2.0 and ensuring that all its associated processes are executed in a timely and appropriate manner.
+        intent: igot_spv
+
+
+  utter_learner_score:
+  - custom:
+      blocks:
+      - type: response
+        text: 
+        - Captures the learner’s interaction with the content on iGOT KY – it reflects the learnings and engagement of a learner on the platform. Calculated (weightage based on discretion) based on an individual’s relationship with the self, others and the content.
+        intent: learner_score
+
+
+  utter_marquee_competencies:
+  - custom:
+      blocks:
+      - type: response
+        text: 
+        - A shortlisted set of important functional and behavioural competencies that can be used as an initial list by ministries, departments, and organisations (MDOs) to kick-start the competency-driven engagement (C-DE) process.
+        intent: marquee_competencies
+
+
+  utter_micro_questions:
+  - custom:
+      blocks:
+      - type: response
+        text: 
+        - micro-question based continuous assessments, can generate a nuanced picture of user. The first is through the cumulation of assessments made by those who observe each other's competencies and one’s own self-assessment. The second is the independent assessor arrangements that the owner department for each competency will put in place and notify on iGOT 2.0. While the latter will typically use computerised proctored, independent, authorised assessments (PIAAs), the former will require a set of micro-questions to be posed and answered that have the ability to capture all aspects of each competency. These micro-questions, which will be in yes/no and multiple-choice formats, will be periodically posed to officials both as part of their peer and self-assessment.
+        intent: micro_questions
+
+
+  utter_negd:
+  - custom:
+      blocks:
+      - type: response
+        text: 
+        - National eGovernance Division (NeGD)
+        intent: negd
+
+
+  utter_normalisation:
+  - custom:
+      blocks:
+      - type: response
+        text: 
+        - Used in reference to ratings, it means adjusting of values measured on different scales to a notionally common scale.
+        intent: normalisation
+
+  utter_organisational_score_of_mdo:
+  - custom:
+      blocks:
+      - type: response
+        text: 
+        - The smallest unit of the Content Directory on iGOT Karmayogi.
+        intent: organisational_score_of_mdo
+
+  utter_piaa_agency:
+  - custom:
+      blocks:
+      - type: response
+        text: 
+        - A third party expert agency that is tasked with ensuring that assessments are created, authorised and made available on the iGOT Karmayogi platform for all users within a period of three years.
+        intent: piaa_agency
+
+  utter_piaa_application:
+  - custom:
+      blocks:
+      - type: response
+        text: 
+        - The main interface for the PIAA agency, to be hosted on iGOT Karmayogi. For all practical purposes (for learners and other users), the PIAA app will not be distinguishable from the iGOT platform. All primary interactions related to assessments of learners and assessment agencies will happen through this app.
+        intent: piaa_application
+
+  utter_piaa_score:
+  - custom:
+      blocks:
+      - type: response
+        text: 
+        - Given to a learner taking a PIAA by the PIAA provider and comprises two components - i) The level at which the competency has been assessed (1-5) and ii) The proficiency within that level (excellent, good, average, poor).
+        intent: piaa_score
+
+  utter_public_procurement:
+  - custom:
+      blocks:
+      - type: response
+        text: 
+        - The purchase of goods, services and works by governments and state-owned enterprises. Public procurement accounts for a substantial portion of taxpayers’ money. Governments are thus expected to carry it out efficiently and with high standards of conduct, to ensure quality service delivery and to safeguard public interest.
+        intent: public_procurement
+
+  utter_reliability:
+  - custom:
+      blocks:
+      - type: response
+        text: 
+        - The extent to which an assessment would produce i) the same or similar results or score on two or more occasions or ii) if given by two or more assessors. It is the accuracy and consistency with which it measures.
+        intent: reliability
+
+  utter_roles:
+  - custom:
+      blocks:
+      - type: response
+        text: 
+        - Categories of tasks a government official is expected to perform in his position. Under FRAC, positions are further broken down into roles.
+        intent: roles
+
+
+  utter_tcs:
+  - custom:
+      blocks:
+      - type: response
+        text: 
+        - The TCS is an algorithmically derived score that combines C- CS and PIAA score, and is informed by the trust scores of the PIAA and CBP. Combined with the WPCAS, it contributes to the competency score
+        intent: tcs
+
+
+  utter_training_budget:
+  - custom:
+      blocks:
+      - type: response
+        text: 
+        - The budget every MDO has for fulfilling its training needs. This will be equal to 2.5% of the annual salary budget of the MDO.
+        intent: training_budget
+
+
+  utter_trigger_period:
+  - custom:
+      blocks:
+      - type: response
+        text: 
+        - The period of time over which user engagements with the platform are measured.
+        intent: trigger_period
+
+
+  utter_validity:
+  - custom:
+      blocks:
+      - type: response
+        text: 
+        - The extent to which an assessment measures what it purports to measure.
+        intent: validity
+
+  utter_virtual_learning_platforms:
+  - custom:
+      blocks:
+      - type: response
+        text: 
+        - A virtual learning environment in educational technology is a web-based platform for the digital aspects of courses of study, usually within educational institutions. They present resources, activities, and interactions within a course structure and provide for the different stages of assessment.
+        intent: virtual_learning_platforms
+
+  utter_impact_score:
+  - custom:
+      blocks:
+      - type: response
+        text: 
+        - Depicts the impact of a CBP on the competencies (one or more) it aims to fulfill. It is calculated by aggregating improvements in the competency scores of officials who have been certified on the completion of a particular CBP.
+        intent: impact_score
+
+  utter_ask_department:
+  - custom:
+      blocks:
+      - type: response
+        text: 
+        - Can you specify a department to get more accurate details?
+        intent: contact_details
+  utter_ask_firstname:
+  - custom:
+      blocks:
+      - type: response
+        text: 
+        - please specify a name to find the contact details
+        intent: contact_details
+
+  utter_ask_course:
+  - custom:
+      blocks:
+      - type: response
+        text: 
+        - please specify a course
+        intent: learning_course
+
+  utter_ask_competency:
+  - custom:
+      blocks:
+      - type: response
+        text: 
+        - please specify a competency
+        intent: add_competency
+
+  utter_term_search:
+  - custom:
+      blocks:
+      - type: response
+        text:  term search api will be called
+        intent: low_confidence
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: false

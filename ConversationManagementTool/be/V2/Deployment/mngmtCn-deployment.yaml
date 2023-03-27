@@ -1,0 +1,365 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: vega-rasa-nlp-sandbox-service
+spec:
+  type: NodePort
+  selector:
+    app: sandbox-nlp-server
+  ports:
+    - protocol: TCP
+      port: 80
+      targetPort: 5005
+      nodePort: 30011
+
+---
+
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: sandbox-nlp-server
+  labels:
+    app: sandbox-nlp-server
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: sandbox-nlp-server
+  template:
+    metadata:
+      labels:
+        app: sandbox-nlp-server
+    spec:
+      containers:
+      - name: sandbox-nlp-server
+        image: tarentonxt/vega:sandbox-nlp-server
+        ports:
+        - containerPort: 5005
+---
+
+apiVersion: v1
+kind: Service
+metadata:
+  name: vega-rasa-action-sandbox-service
+spec:
+  selector:
+    app: sandbox-action-server
+  ports:
+    - protocol: TCP
+      port: 80
+      targetPort: 5055
+
+---
+
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: sandbox-action-server
+  labels:
+    app: sandbox-action-server
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: sandbox-action-server
+  template:
+    metadata:
+      labels:
+        app: sandbox-action-server
+    spec:
+      containers:
+      - name: sandbox-action-server
+        image: tarentonxt/vega:sandbox-action-server
+        ports:
+        - containerPort: 5055
+
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: vega-rasa-nlp-igot-service
+spec:
+  type: NodePort
+  selector:
+    app: vega-nlp-server
+  ports:
+    - protocol: TCP
+      port: 80
+      targetPort: 5005
+      nodePort: 30012
+
+---
+
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: vega-nlp-server
+  labels:
+    app: vega-nlp-server
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: vega-nlp-server
+  template:
+    metadata:
+      labels:
+        app: vega-nlp-server
+    spec:
+      containers:
+      - name: vega-nlp-server
+        image: tarentonxt/vega:vega-nlp-server
+        ports:
+        - containerPort: 5005
+---
+
+apiVersion: v1
+kind: Service
+metadata:
+  name: vega-rasa-action-igot-service
+spec:
+  selector:
+    app: vega-action-server
+  ports:
+    - protocol: TCP
+      port: 80
+      targetPort: 5055
+
+---
+
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: vega-action-server
+  labels:
+    app: vega-action-server
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: vega-action-server
+  template:
+    metadata:
+      labels:
+        app: vega-action-server
+    spec:
+      containers:
+      - name: vega-action-server
+        image: tarentonxt/vega:vega-action-server
+        ports:
+        - containerPort: 5055
+
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: vega-router-service
+spec:
+  type: NodePort
+  selector:
+    app: router
+  ports:
+    - protocol: TCP
+      port: 80
+      targetPort: 4005
+      nodePort: 30013
+
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: router
+  labels:
+    app: router
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: router
+  template:
+    metadata:
+      labels:
+        app: router
+    spec:
+      containers:
+      - name: router
+        image: tarentonxt/vega:router
+        ports:
+        - containerPort: 4005
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: vega-compiler-service
+spec:
+  type: NodePort
+  selector:
+    app: compiler
+  ports:
+    - protocol: TCP
+      port: 80
+      targetPort: 4002
+      nodePort: 30014
+
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: compiler
+  labels:
+    app: compiler
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: compiler
+  template:
+    metadata:
+      labels:
+        app: compiler
+    spec:
+      containers:
+      - name: router
+        image: tarentonxt/vega:compiler
+        ports:
+        - containerPort: 4002
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: vega-redis-service
+spec:
+  type: NodePort
+  selector:
+    app: redis
+  ports:
+    - protocol: TCP
+      port: 80
+      targetPort: 6379
+
+---
+
+apiVersion: apps/v1 
+kind: Deployment
+metadata:
+  name: redis
+spec:
+  selector:
+    matchLabels:
+      app: redis
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: redis
+    spec:
+      containers:
+      - name: redis
+        image: tarentonxt/vega:redis
+        ports:
+        - containerPort: 6379
+---
+
+apiVersion: v1
+kind: Service
+metadata:
+  name: vega-console-service
+spec:
+  type: NodePort
+  selector:
+    app: vega-console
+  ports:
+    - protocol: TCP
+      port: 80
+      targetPort: 4000
+      nodePort: 30015
+
+---
+
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: vega-console
+  labels:
+    app: vega-console
+spec:
+  selector:
+    matchLabels:
+      app: vega-console
+  template:
+    metadata:
+      labels:
+        app: vega-console
+    spec:
+      containers:
+      - name: vega-console
+        image: tarentonxt/vega:console
+        ports:
+        - containerPort: 4000
+        env:
+        - name: USERNAME
+          valueFrom:
+            configMapKeyRef:
+              name: mgmnt-console-config-env-file
+              key: username
+        - name: PASSWORD
+          valueFrom:
+            configMapKeyRef:
+              name: mgmnt-console-config-env-file
+              key: password
+        - name: DBIP
+          valueFrom:
+            configMapKeyRef:
+              name: mgmnt-console-config-env-file
+              key: dbip
+        - name: DBPORT
+          valueFrom:
+            configMapKeyRef:
+              name: mgmnt-console-config-env-file
+              key: dbport
+        - name: DBNAME
+          valueFrom:
+            configMapKeyRef:
+              name: mgmnt-console-config-env-file
+              key: dbname
+        - name: ESHOST
+          valueFrom:
+            configMapKeyRef:
+              name: mgmnt-console-config-env-file
+              key: eshost
+        - name: ESNAME
+          valueFrom:
+            configMapKeyRef:
+              name: mgmnt-console-config-env-file
+              key: esname
+        - name: ESUSER
+          valueFrom:
+            configMapKeyRef:
+              name: mgmnt-console-config-env-file
+              key: esuser
+        - name: ESPASS
+          valueFrom:
+            configMapKeyRef:
+              name: mgmnt-console-config-env-file
+              key: espass
+        - name: ESPORT
+          valueFrom:
+            configMapKeyRef:
+              name: mgmnt-console-config-env-file
+              key: esport
+        - name: GITBRANCH
+          valueFrom:
+            configMapKeyRef:
+              name: mgmnt-console-config-env-file
+              key: gitbranch
+        - name: GITUSER
+          valueFrom:
+            configMapKeyRef:
+              name: mgmnt-console-config-env-file
+              key: gituser
+        - name: GITPASS
+          valueFrom:
+            configMapKeyRef:
+              name: mgmnt-console-config-env-file
+              key: gitpass
+

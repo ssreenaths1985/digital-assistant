@@ -1,0 +1,23 @@
+[33m[nodemon] 2.0.6[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: js,mjs,json[39m
+[32m[nodemon] starting `node app.js`[39m
+┌──────────────────────────────────────────────────────────┐
+│               nodemon update check failed                │
+│           Try running with sudo or get access            │
+│           to the local update config store via           │
+│ sudo chown -R $USER:$(id -gn $USER) /home/ubuntu/.config │
+└──────────────────────────────────────────────────────────┘
+events.js:200
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: EBADF: bad file descriptor, read
+Emitted 'error' event on ReadStream instance at:
+    at internal/fs/streams.js:167:12
+    at FSReqCallback.wrapper [as oncomplete] (fs.js:470:5) {
+  errno: -9,
+  code: 'EBADF',
+  syscall: 'read'
+}

@@ -1,0 +1,1127 @@
+Carbon Pricing
+Accreditation Structure Management
+Assessment Design and Implementation
+Behaviour Change Facilitation
+Benefits Management
+Career Coaching
+Career Framework Design
+Compensation Management
+Competency Framework Development
+Conduct and Behaviour Management
+Contingent Workforce Management
+Contract Development and Management
+Customer Relationship Management Operations
+Data Collection and Preparation
+Data Management
+Digital Marketing and Communication
+Diversity and Inclusion Management
+Employee Communication Management
+Employee Engagement Management
+Employee Mobility Management
+Employee Relationship Management
+Learner Profile Analysis
+Assessment Instrument Design
+Learning and Development Programme Management
+Learning and Development Strategy
+Learning Experience Delivery
+Learning Experience Evaluation
+Learning Mode Design
+Learning Solution Design
+Learning Strategy Development
+Learning Space Design
+Learning Technology Design
+Onboarding
+Operational Excellence
+Organisational Impact Analysis
+Organisational Strategising
+Organisation Management
+Organisational Change Management
+Organisational Event Management
+Organisational Impact Analysis
+Performance Management
+Project Management
+Recruitment Channel Management
+Research Findings Communication
+Risk Management
+Selection Management
+Skills Framework Adoption
+Stakeholder Engagement and Management
+Strategic Workforce Planning
+Talent Capability Assessment
+Talent Management
+Technology-enabled Learning Delivery
+Technology Integration
+Total Rewards Philosophy Development
+Voluntary Exit Management
+Workplace Learning Delivery
+Workplace Performance Diagnosis
+Passenger Train Operations
+Rail Operations Control Management
+Rail Operations Enhancement Management
+Track Access Management
+Train Depot Control Management
+Train Station Operations Management
+Automatic Fare Collection Auxiliary Systems Maintenance
+Automatic Fare Collection Gate Maintenance
+Automatic Fare Collection Sales Devices Maintenance
+Communication Auxiliary Systems Maintenance
+Communication Power System Maintenance
+Train Fare and Ticket Management
+Communication Backbone System Maintenance
+Drainage, Plumbing and Sanitary Systems Maintenance
+Emergency and Security Communication Systems Maintenance
+Engineering Train and Rolling Stock Operation
+Fire Protection Systems Maintenance
+Heavy Crane Vehicle Maintenance
+Heavy Lifting Machinery Operation
+High Voltage Power Systems Maintenance
+Escalator and Travelator Maintenance
+Lift Systems Maintenance
+Locomotive Maintenance
+Low Voltage Power Systems Maintenance
+Multi-function Vehicle Maintenance
+Network Systems Maintenance
+Platform Screen Door Maintenance
+Rail Grinding Vehicle Maintenance
+Rail Track Inspection
+Rail Track Maintenance
+Rolling Stock Air-conditioning and Ventilation Systems Maintenance
+Rolling Stock Auxiliary Systems Maintenance
+Rolling Stock Bogie Maintenance
+Rolling Stock Brake Systems Maintenance
+Rolling Stock Car Body Maintenance
+Rolling Stock On-board Control Systems Maintenance
+Rolling Stock Power Systems Maintenance
+Rolling Stock Propulsion Systems Maintenance
+Signal Interlocking Systems Maintenance
+Station Air-Conditioning Systems Maintenance
+Supervisory Control and Data Acquisition System Maintenance
+Third Rail Maintenance
+Track Tamping Vehicle Maintenance
+Trackside Automatic Train Control Equipment Maintenance
+Signalling Auxiliary Devices and Equipment Maintenance
+Train Supervisory System Maintenance
+Trainborne Automatic Train Control Equipment Maintenance
+Travel Information System Maintenance
+Ventilation System Maintenance
+Video Surveillance System Maintenance
+Financial Acumen
+Group Dynamics Facilitation
+Health and Wellness Programme Management
+Human Resource Service Quality Management
+Executive Remuneration Management
+Wagon Maintenance
+Human Resource Systems Management
+Industry Networking
+Involuntary Exit Management
+Job Analysis and Evaluation
+Labour Relations Management
+Intellectual Property Management
+Project After Action Review (AAR)
+Embedded Systems Integration
+Budget Analysis
+Financial Modelling
+Embedded Systems Interface Design
+Project Quality Management
+Enterprise Architecture
+Project Resource Planning
+Environment and Social Governance
+Project Scoping
+Project Scheduling
+Financial Transaction Modelling
+Infrastructure Design
+Financial Management
+Innovation Management
+Integrated System Design and Application
+Human Resource Advisory
+Human Resource Strategy Formulation
+Legal Drafting and Writing
+Human Resource Policies and Legislation Framework Management
+Management Decision Making
+Human Resource Practices Implementation
+Financial Statements Review
+Business Planning
+Business Opportunities Development
+Cloud Computing Application
+Business Requirements Mapping
+Compliance Mindset Development
+Competency Framework Development
+Stakeholder Management
+Data Design
+Project Administration
+Emerging Technology Synthesis
+Data Management
+Environment and Social Governance
+Data Strategy
+Demand and Supply Analysis
+Business Negotiation
+Business Needs Analysis
+Ethical Culture
+Financial Management
+Design Concepts Generation
+Design Thinking Practice
+Digital Marketing and Communication
+Digital Marketing
+Digital Technology Environment Scanning
+Financial Investment Analysis
+Digital Technology Adoption and Innovation
+Budgeting
+Product Management
+Technology roadmapping
+Product Marketing and Branding
+Artificial Intelligence Application
+Change Management
+Cyber Security
+Internet of Things Management
+Emerging Technology
+Project Feasibility Assessment
+Programme Management
+Proposal Management
+Programming and Coding
+Qualitative Analysis
+Project Management
+Regulatory Compliance
+Risk Management
+Gender Sensitivity
+Regulatory Compliance
+Solution Architecture
+Crisis Situations Management/Disaster Management
+Strategic Human Resource Management
+Impact measurement
+Strategic Service Excellence
+Product Management
+Programming and Coding
+Project Management
+Professional and Business Ethics
+Monitoring and Surveillance
+Infrastructure Strategy
+Innovation Management
+Project Planning
+Integrated System Design and Application
+Project Risk Identification
+Environmental Planning
+Scenario Planning
+Public Health Communication
+Operational Risk Management
+IT Strategy
+Organisational Culture Development
+Knowledge Management
+Marketing Strategy Development
+Organisational Analysis
+Organisational Strategy Development
+Organisational Design
+Portfolio and Investment Risk Management
+Process Improvement and Optimisation
+Performance Management
+Data collection and analysis
+Procurement
+Policy Implementation and Revision
+Networking
+Environmental Impact Assessment
+Public Sector Transformation and Innovation
+Environmental Legislation
+Institutional Governance
+Health Research Data Analysis
+Environmental Audits (EA)
+Microeconomics
+Environmental Quality Monitoring (EQM)
+Account Management
+Audit and Compliance
+Benchmarking
+Book Building
+Budgeting
+Capital Expenditure and Investment Evaluation
+Planning and Coordination
+Programme Implementation
+Gender and Environment
+Climate Finance
+Productivity and Innovation Strategy (PSI)
+Business Operational Planning
+Property and Infrastructural Planning
+Data Visualisation
+Data Collection and Preparation
+Data Governance-IT
+Data Governance- GM
+Contract Management
+Data Governance-Learning
+Crisis Management
+Data Management
+Cyber Risk Management
+Data Mining and Modelling
+Data Analytics System Design
+Data Storytelling and Visualisation
+Data Analytics
+Livelihoods Design
+Gender Equality
+Sustainable Energy Infrastructure Design
+Forestry Livelihood Management
+Climate-Resilient Development
+Cash Flow Reporting
+Change Management
+Channel Management
+Computational Modelling
+Prevention of Gender-based Violence (G-BV)
+Conflict Management
+Climate Change Policy Design
+Gender-sensitive Disaster Risk Management (DRM)
+Climate Change and Health
+Crisis Management
+Cybersecurity
+Data Ethics
+Data Governance
+Data Protection Management
+Health Strategy Plans
+People First
+Scientific Communication
+Health Programme Evaluation
+Integrity
+Attention to Detail
+FRACing process
+Policy Implementation
+Policy Analysis
+Regulatory Policy
+Policy Development
+Public Financial Management (PFM)
+Management of Public Organisations
+Conceptual Thinking
+Policy Communication
+Policy Design
+Policy Stakeholder Engagement
+Gender and Energy
+Public Health Systems
+Health Outcomes Measurement
+Taking Accountability
+Consultation and Consensus Building
+Empathy
+Delegation
+Result Orientation
+Strategy Implementation
+Programme Design
+Scenario planning and analysis
+Tax Advisory
+Technology and Systems Application
+Technology Infrastructure Management and Integration
+Service Challenges
+Technology Road Mapping
+Threat Analysis and Defence
+Software Design
+Workplace Optimisation
+Learning Research Data Analysis
+Research Design
+Research and Information Synthesis
+Strategy Planning
+Talent Management
+Health Promotion
+Ethics
+Technical Analysis-Financial Securities
+Policy Implementation and Revision
+Wealth Planning Administration
+Business Financial Management
+Product/Service Quality Assurance
+Stakeholder Management- Contracts
+Strategy Planning
+Systems Design
+Technology Application
+Transport Management System Administration
+User Interface Design
+Stakeholder Management
+Standard Operating Procedures Development
+Strategic Planning
+Data Storytelling and Visualisation
+Seeking Information
+Self-Confidence
+Leading Others
+Data and Statistical Analytics
+Financial Reporting
+IT Governance
+Organisational Design
+Organisational Diagnosis
+Quality Assurance
+Regulatory and Legal Advisory
+Regulatory Risk Assessment
+Risk Assessment
+Service Level Management
+IT Quality Standards
+User Experience Design
+Financial Statements Analysis
+Financial Planning
+Security Governance
+Data Sharing
+Capital Management
+Behavioural Finance
+Security Governance & Risk Compliance
+IT Standards
+Risk Management
+Financial Transactions
+Team-Working
+Communication Skills
+Strategic Thinking
+Organisational Awareness
+Commitment to the Organisation
+Decision Making
+Initiative and Drive
+Desire for Knowledge
+Innovative Thinking
+Problem Solving
+Developing Others
+Self Awareness and Self Control
+Research Data Management
+Health Project Management (PM)
+Inquiry-based Instruction
+Digital Course Development
+Public Health Resource Management
+Public Health Policy Development
+Public Health Ethics
+Project Integration
+Asset and Liability Management
+Audit Frameworks
+Coaching and Mentoring
+Financial Analysis
+Financial Transactions
+Leadership Development
+Macroeconomic Analysis
+Process Improvement and Optimisation
+Public-Private-Individual Partnership Collaboration
+Security Strategy
+Succession Planning
+Sustainability Management
+Tax Compliance
+Tax Controversy Management
+Tax Implications
+Tax Risk Management
+Taxation Laws
+Operational Excellence
+Operational Excellence
+Tax Computation
+Transfer Pricing
+Transport Management System Administration
+Partnership Management
+Health Research Proposal Development
+Education for Health and Wellbeing - Programme Development
+Health Emergency Detection and Assessment
+Vaccine Supplies and Logistics
+Public Health Surveillance
+Public Health Evidence Collection and Analysis
+Applied Statistics
+carbon pricing
+accreditation structure management
+assessment design and implementation
+behaviour change facilitation
+benefits management
+career coaching
+career framework design
+compensation management
+competency framework development
+conduct and behaviour management
+contingent workforce management
+contract development and management
+customer relationship management operations
+data collection and preparation
+data management
+digital marketing and communication
+diversity and inclusion management
+employee communication management
+employee engagement management
+employee mobility management
+employee relationship management
+learner profile analysis
+assessment instrument design
+learning and development programme management
+learning and development strategy
+learning experience delivery
+learning experience evaluation
+learning mode design
+learning solution design
+learning strategy development
+learning space design
+learning technology design
+onboarding
+operational excellence
+organisational impact analysis
+organisational strategising
+organisation management
+organisational change management
+organisational event management
+organisational impact analysis
+performance management
+project management
+recruitment channel management
+research findings communication
+risk management
+selection management
+skills framework adoption
+stakeholder engagement and management
+strategic workforce planning
+talent capability assessment
+talent management
+technology-enabled learning delivery
+technology integration
+total rewards philosophy development
+voluntary exit management
+workplace learning delivery
+workplace performance diagnosis
+passenger train operations
+rail operations control management
+rail operations enhancement management
+track access management
+train depot control management
+train station operations management
+automatic fare collection auxiliary systems maintenance
+automatic fare collection gate maintenance
+automatic fare collection sales devices maintenance
+communication auxiliary systems maintenance
+communication power system maintenance
+train fare and ticket management
+communication backbone system maintenance
+drainage, plumbing and sanitary systems maintenance
+emergency and security communication systems maintenance
+engineering train and rolling stock operation
+fire protection systems maintenance
+heavy crane vehicle maintenance
+heavy lifting machinery operation
+high voltage power systems maintenance
+escalator and travelator maintenance
+lift systems maintenance
+locomotive maintenance
+low voltage power systems maintenance
+multi-function vehicle maintenance
+network systems maintenance
+platform screen door maintenance
+rail grinding vehicle maintenance
+rail track inspection
+rail track maintenance
+rolling stock air-conditioning and ventilation systems maintenance
+rolling stock auxiliary systems maintenance
+rolling stock bogie maintenance
+rolling stock brake systems maintenance
+rolling stock car body maintenance
+rolling stock on-board control systems maintenance
+rolling stock power systems maintenance
+rolling stock propulsion systems maintenance
+signal interlocking systems maintenance
+station air-conditioning systems maintenance
+supervisory control and data acquisition system maintenance
+third rail maintenance
+track tamping vehicle maintenance
+trackside automatic train control equipment maintenance
+signalling auxiliary devices and equipment maintenance
+train supervisory system maintenance
+trainborne automatic train control equipment maintenance
+travel information system maintenance
+ventilation system maintenance
+video surveillance system maintenance
+financial acumen
+group dynamics facilitation
+health and wellness programme management
+human resource service quality management
+executive remuneration management
+wagon maintenance
+human resource systems management
+industry networking
+involuntary exit management
+job analysis and evaluation
+labour relations management
+intellectual property management
+project after action review (aar)
+embedded systems integration
+budget analysis
+financial modelling
+embedded systems interface design
+project quality management
+enterprise architecture
+project resource planning
+environment and social governance
+project scoping
+project scheduling
+financial transaction modelling
+infrastructure design
+financial management
+innovation management
+integrated system design and application
+human resource advisory
+human resource strategy formulation
+legal drafting and writing
+human resource policies and legislation framework management
+management decision making
+human resource practices implementation
+financial statements review
+business planning
+business opportunities development
+cloud computing application
+business requirements mapping
+compliance mindset development
+competency framework development
+stakeholder management
+data design
+project administration
+emerging technology synthesis
+data management
+environment and social governance
+data strategy
+demand and supply analysis
+business negotiation
+business needs analysis
+ethical culture
+financial management
+design concepts generation
+design thinking practice
+digital marketing and communication
+digital marketing
+digital technology environment scanning
+financial investment analysis
+digital technology adoption and innovation
+budgeting
+product management
+technology roadmapping
+product marketing and branding
+artificial intelligence application
+change management
+cyber security
+internet of things management
+emerging technology
+project feasibility assessment
+programme management
+proposal management
+programming and coding
+qualitative analysis
+project management
+regulatory compliance
+risk management
+gender sensitivity
+regulatory compliance
+solution architecture
+crisis situations management/disaster management
+strategic human resource management
+impact measurement
+strategic service excellence
+product management
+programming and coding
+project management
+professional and business ethics
+monitoring and surveillance
+infrastructure strategy
+innovation management
+project planning
+integrated system design and application
+project risk identification
+environmental planning
+scenario planning
+public health communication
+operational risk management
+it strategy
+organisational culture development
+knowledge management
+marketing strategy development
+organisational analysis
+organisational strategy development
+organisational design
+portfolio and investment risk management
+process improvement and optimisation
+performance management
+data collection and analysis
+procurement
+policy implementation and revision
+networking
+environmental impact assessment
+public sector transformation and innovation
+environmental legislation
+institutional governance
+health research data analysis
+environmental audits (ea)
+microeconomics
+environmental quality monitoring (eqm)
+account management
+audit and compliance
+benchmarking
+book building
+budgeting
+capital expenditure and investment evaluation
+planning and coordination
+programme implementation
+gender and environment
+climate finance
+productivity and innovation strategy (psi)
+business operational planning
+property and infrastructural planning
+data visualisation
+data collection and preparation
+data governance-it
+data governance- gm
+contract management
+data governance-learning
+crisis management
+data management
+cyber risk management
+data mining and modelling
+data analytics system design
+data storytelling and visualisation
+data analytics
+livelihoods design
+gender equality
+sustainable energy infrastructure design
+forestry livelihood management
+climate-resilient development
+cash flow reporting
+change management
+channel management
+computational modelling
+prevention of gender-based violence (g-bv)
+conflict management
+climate change policy design
+gender-sensitive disaster risk management (drm)
+climate change and health
+crisis management
+cybersecurity
+data ethics
+data governance
+data protection management
+health strategy plans
+people first
+scientific communication
+health programme evaluation
+integrity
+attention to detail
+fracing process
+policy implementation
+policy analysis
+regulatory policy
+policy development
+public financial management (pfm)
+management of public organisations
+conceptual thinking
+policy communication
+policy design
+policy stakeholder engagement
+gender and energy
+public health systems
+health outcomes measurement
+taking accountability
+consultation and consensus building
+empathy
+delegation
+result orientation
+strategy implementation
+programme design
+scenario planning and analysis
+tax advisory
+technology and systems application
+technology infrastructure management and integration
+service challenges
+technology road mapping
+threat analysis and defence
+software design
+workplace optimisation
+learning research data analysis
+research design
+research and information synthesis
+strategy planning
+talent management
+health promotion
+ethics
+technical analysis-financial securities
+policy implementation and revision
+wealth planning administration
+business financial management
+product/service quality assurance
+stakeholder management- contracts
+strategy planning
+systems design
+technology application
+transport management system administration
+user interface design
+stakeholder management
+standard operating procedures development
+strategic planning
+data storytelling and visualisation
+seeking information
+self-confidence
+leading others
+data and statistical analytics
+financial reporting
+it governance
+organisational design
+organisational diagnosis
+quality assurance
+regulatory and legal advisory
+regulatory risk assessment
+risk assessment
+service level management
+it quality standards
+user experience design
+financial statements analysis
+financial planning
+security governance
+data sharing
+capital management
+behavioural finance
+security governance & risk compliance
+it standards
+risk management
+financial transactions
+team-working
+communication skills
+strategic thinking
+organisational awareness
+commitment to the organisation
+decision making
+initiative and drive
+desire for knowledge
+innovative thinking
+problem solving
+developing others
+self awareness and self control
+research data management
+health project management (pm)
+inquiry-based instruction
+digital course development
+public health resource management
+public health policy development
+public health ethics
+project integration
+asset and liability management
+audit frameworks
+coaching and mentoring
+financial analysis
+financial transactions
+leadership development
+macroeconomic analysis
+process improvement and optimisation
+public-private-individual partnership collaboration
+security strategy
+succession planning
+sustainability management
+tax compliance
+tax controversy management
+tax implications
+tax risk management
+taxation laws
+operational excellence
+operational excellence
+tax computation
+transfer pricing
+transport management system administration
+partnership management
+health research proposal development
+education for health and wellbeing - programme development
+health emergency detection and assessment
+vaccine supplies and logistics
+public health surveillance
+public health evidence collection and analysis
+applied statistics
+E-Governance & Information & Communication Technology
+Economics
+History
+Information & Communication Technology And Digital Governance
+Law
+Management
+Political Science
+Public Administration
+Networking & Communication
+Database Management System - MS Acess
+Word Processing (MS-Word)
+Applications
+Presentation (MS-powerpoint)
+Spreadsheet (MS-Excel)
+Freeware Linux
+E-Governance
+Growth Economics
+Economics Thought
+Indian Economy
+Principles of Macro Economics
+Introduction to Economics
+Basics of National Income Accounting
+Basics of Demand and Supply
+Principles of Micro Economics
+Working of Economy
+International Trade
+Microeconomic Perspective
+Money & Banking
+Monetary Policy and Bank Regulation
+The Macroeconomic Perspective
+Government Budget and Fiscal Policy
+Ancient History
+Medieval History
+Modern History
+Post-Independence History
+World History
+Computer Fundamentals
+Standalone Office Applications
+Collaboration Tools & Meetings Solutions
+Software Development Model
+Emerging Technologies
+Concepts of Law
+Administration of Justice
+Unit III : Criminal Laws (Substantive)
+Unit IV : Procedural Laws (Civil and Criminal)
+Unit V : Social Legislations/Special Laws
+Unit VI : Basics of Law of Contracts and Law of Torts
+Constituion & Administrative Law
+Law and Governance
+Concept of Crime and Civil Wrong
+Contemporary Legal Developments
+Administrative Law
+Procedural Law
+Substantive Law
+Contemporary legal Developments
+Unit 1 : General Principles of Law
+Unit II : Administration of Justice
+Principles of Management of Organizations
+Data Systems
+Social Marketing
+Principles of Management
+Organisational Behavior
+Human Resource Management in Government
+Data Analysis & Interpretation
+Financial Management
+Quantitative Analysis for Decision Making (QADM)
+Using Data Systems
+Project Management
+Project Appraisal
+Leadership
+Negotiation
+Management Tools for Quality in Government
+Social Marketing
+Public Private Partnership
+Constitution of India
+Political Thoughts & Political Concepts
+Contemporary Indian Politics
+Indian Political System
+Union Executive
+Rights and Goals
+Constitution of India
+Political Thoughts & Political Concepts
+Contemporary Indian Politics
+Indian Political System
+Union Executive
+Rights and Goals
+e-governance & information & communication technology
+economics
+history
+information & communication technology and digital governance
+law
+management
+political science
+public administration
+networking & communication
+database management system - ms acess
+word processing (ms-word)
+applications
+presentation (ms-powerpoint)
+spreadsheet (ms-excel)
+freeware linux
+e-governance
+growth economics
+economics thought
+indian economy
+principles of macro economics
+introduction to economics
+basics of national income accounting
+basics of demand and supply
+principles of micro economics
+working of economy
+international trade
+microeconomic perspective
+money & banking
+monetary policy and bank regulation
+the macroeconomic perspective
+government budget and fiscal policy
+ancient history
+medieval history
+modern history
+post-independence history
+world history
+computer fundamentals
+standalone office applications
+collaboration tools & meetings solutions
+software development model
+emerging technologies
+concepts of law
+administration of justice
+unit iii : criminal laws (substantive)
+unit iv : procedural laws (civil and criminal)
+unit v : social legislations/special laws
+unit vi : basics of law of contracts and law of torts
+constituion & administrative law
+law and governance
+concept of crime and civil wrong
+contemporary legal developments
+administrative law
+procedural law
+substantive law
+contemporary legal developments
+unit 1 : general principles of law
+unit ii : administration of justice
+principles of management of organizations
+data systems
+social marketing
+principles of management
+organisational behavior
+human resource management in government
+data analysis & interpretation
+financial management
+quantitative analysis for decision making (qadm)
+using data systems
+project management
+project appraisal
+leadership
+negotiation
+management tools for quality in government
+social marketing
+public private partnership
+constitution of india
+political thoughts & political concepts
+contemporary indian politics
+indian political system
+union executive
+rights and goals
+constitution of india
+political thoughts & political concepts
+contemporary indian politics
+indian political system
+union executive
+rights and goals
+CBI Academy
+Coursera test
+Department for Promotion of Industry and Internal Trade Ministry of Commerce and Industry
+Department of Commerce Ministry of Commerce and Industry
+Department of Fertilizers Ministry of Chemicals And Fertilizers
+Department of Official Language
+Department of Telecommunications DOT
+Department of Water Resources River Development and Ganga Rejuvenation
+DoP(Department of Posts)
+DoPT(Department of Personnel and Training
+FRAC Department
+IDFC Institute
+IGNOU(Indira Gandhi National Open University)
+IGNOU
+Indira Gandhi National Open University
+igot
+IIM B
+Indian Institute of Public Administration
+INDIAN RAILWAY INSTITUTE OF CIVIL ENGINEERING IRICEN
+INDIAN RAILWAY INSTITUTE OF ELECTRICAL ENGINEERING IRIEEN
+INDIAN RAILWAY INSTITUTE OF MECHANICAL AND ELECTRICAL ENGINEERING IRIMEE
+INDIAN RAILWAY INSTITUTE OF SIGNAL AND TELECOM ENGINEERING IRISET
+Indian Railways Institute of Financial Management
+ISTM (Institute of Secretariat Training and Management)
+Institute of Secretariat Training and Management
+J-PAL SA
+JAGJIVAN RAM RAILWAY PROTECTION FORCE ACADEMY
+LBSNAA
+LBSNAA Lal Bahadur Shastri National Academy of Administratio
+MeitY
+Ministry of Agriculture and Farmers Welfare
+Ministry of Education Department of School Education and Literacy
+Ministry of Finance Department of Revenue and Department of Economic Affairs
+Ministry of Food Processing Industries
+Ministry of Housing and Urban Affairs
+Ministry of Petroleum and Natural GAS MoPNG
+Ministry of Power
+Ministry of Railways
+Ministry of Road Transport and Highways
+Ministry of Rural Development
+Ministry of Skill Development and Entrepreneurship
+Ministry of Tribal Affairs
+Ministry of Women and Child Development
+MoHFW
+NACIN(National Academy of Customs, Indirect Taxes and Narcotics)
+National Academy of Customs, Indirect Taxes and Narcotics
+NACIN
+NADT(National Academy of Direct Taxes)
+National Academy of Direct Taxes
+NADT
+National Academy of Indian Railways
+National Health Systems Resource Centre NHSRC
+NIRDPR(National Institute of Rural Development and Panchayati Raj)
+National Institute of Rural Development and Panchayati Raj
+NIRDPR
+North Eastern Council Ministry of Development of North Eastern Region
+NTIPRIT
+OMED CBP
+Power Finance Corporation Ltd PFC
+Pradhan Mantri Fasal Bima Yojana PMFBY
+RAKNPA
+Rashtriya Ispat Nigam Limited
+State Institute of Health and Family Welfare SIHFW
+Steel(Ministry of Steel)
+SVPNPA
+Testing Department
+UDEMY test department
+UN Environment India Office
+Wadhwani Foundation
+World Bank
+cbi academy
+coursera test
+department for promotion of industry and internal trade ministry of commerce and industry
+department of commerce ministry of commerce and industry
+department of fertilizers ministry of chemicals and fertilizers
+department of official language
+department of telecommunications dot
+department of water resources river development and ganga rejuvenation
+dop(department of posts)
+dop
+dopt(department of personnel and training
+dopt
+frac department
+idfc institute
+ignou(indira gandhi national open university)
+ignou
+indira gandhi national open university
+igot
+iim b
+indian institute of public administration
+indian railway institute of civil engineering iricen
+indian railway institute of electrical engineering irieen
+indian railway institute of mechanical and electrical engineering irimee
+indian railway institute of signal and telecom engineering iriset
+indian railways institute of financial management
+istm (institute of secretariat training and management)
+institute of secretariat training and management
+jpal
+j-pal
+j-pal sa
+jagjivan ram railway protection force academy
+lbsnaa
+lbsnaa lal bahadur shastri national academy of administratio
+meity
+ministry of agriculture and farmers welfare
+ministry of education department of school education and literacy
+ministry of finance department of revenue and department of economic affairs
+ministry of food processing industries
+ministry of housing and urban affairs
+ministry of petroleum and natural gas mopng
+ministry of power
+ministry of railways
+ministry of road transport and highways
+ministry of rural development
+ministry of skill development and entrepreneurship
+ministry of tribal affairs
+ministry of women and child development
+mohfw
+nacin
+nadt
+nacin(national academy of customs, indirect taxes and narcotics)
+national academy of customs, indirect taxes and narcotics
+nadt(national academy of direct taxes)
+national academy of direct taxes
+national academy of indian railways
+national health systems resource centre nhsrc
+nirdpr(
+national institute of rural development and panchayati raj
+nirdpr
+north eastern council ministry of development of north eastern region
+ntiprit
+omed cbp
+power finance corporation ltd pfc
+pradhan mantri fasal bima yojana pmfby
+raknpa
+rashtriya ispat nigam limited
+state institute of health and family welfare sihfw
+steel(ministry of steel)
+ministry of steel
+svpnpa
+testing department
+udemy test department
+un environment india office
+wadhwani foundation
+world bank

@@ -1,0 +1,78 @@
+{
+  "mood_great": {
+    "precision": 0.42857142857142855,
+    "recall": 0.375,
+    "f1-score": 0.39999999999999997,
+    "support": 8,
+    "confused_with": {
+      "mood_unhappy": 2,
+      "greet": 2
+    }
+  },
+  "how_you": {
+    "precision": 0.6666666666666666,
+    "recall": 0.6666666666666666,
+    "f1-score": 0.6666666666666666,
+    "support": 9,
+    "confused_with": {
+      "greet": 2,
+      "what_you_know": 1
+    }
+  },
+  "greet": {
+    "precision": 0.5454545454545454,
+    "recall": 0.5,
+    "f1-score": 0.5217391304347826,
+    "support": 12,
+    "confused_with": {
+      "mood_great": 2,
+      "how_you": 2
+    }
+  },
+  "mood_unhappy": {
+    "precision": 0.75,
+    "recall": 0.6,
+    "f1-score": 0.6666666666666665,
+    "support": 10,
+    "confused_with": {
+      "mood_great": 2,
+      "greet": 1
+    }
+  },
+  "bot_challenge": {
+    "precision": 0.7692307692307693,
+    "recall": 1.0,
+    "f1-score": 0.8695652173913044,
+    "support": 10,
+    "confused_with": {}
+  },
+  "what_you_know": {
+    "precision": 0.8,
+    "recall": 0.8888888888888888,
+    "f1-score": 0.8421052631578948,
+    "support": 9,
+    "confused_with": {
+      "how_you": 1
+    }
+  },
+  "thanks": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 6,
+    "confused_with": {}
+  },
+  "accuracy": 0.703125,
+  "macro avg": {
+    "precision": 0.7085604871319157,
+    "recall": 0.7186507936507935,
+    "f1-score": 0.709534706331045,
+    "support": 64
+  },
+  "weighted avg": {
+    "precision": 0.6932239635364635,
+    "recall": 0.703125,
+    "f1-score": 0.6937833714721586,
+    "support": 64
+  }
+}

@@ -1,0 +1,9 @@
+  
+FROM openjdk:8
+
+RUN apt update && apt install maven -y && apt install zip -y
+
+COPY ConversationManagementTool/be/V2/ /opt
+
+WORKDIR /opt
+RUN mvn clean install -DskipTests

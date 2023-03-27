@@ -1,0 +1,154 @@
+[
+  {
+    "text": "good morning",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.5900799632072449
+    }
+  },
+  {
+    "text": "what's up",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "how_you",
+      "confidence": 0.7865961790084839
+    }
+  },
+  {
+    "text": "wonderful",
+    "intent": "mood_great",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.5509204268455505
+    }
+  },
+  {
+    "text": "hello",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "what_you_know",
+      "confidence": 0.327377051115036
+    }
+  },
+  {
+    "text": "wassup",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "how_you",
+      "confidence": 0.9426916837692261
+    }
+  },
+  {
+    "text": "I'm good",
+    "intent": "mood_great",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.42667943239212036
+    }
+  },
+  {
+    "text": "what do you know?",
+    "intent": "what_you_know",
+    "intent_prediction": {
+      "name": "how_you",
+      "confidence": 0.7701210975646973
+    }
+  },
+  {
+    "text": "good after noon",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.876616358757019
+    }
+  },
+  {
+    "text": "whassup",
+    "intent": "how_you",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.947705090045929
+    }
+  },
+  {
+    "text": "perfect",
+    "intent": "mood_great",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.3607763946056366
+    }
+  },
+  {
+    "text": "awful",
+    "intent": "mood_unhappy",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.44853463768959045
+    }
+  },
+  {
+    "text": "not very good",
+    "intent": "mood_unhappy",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.9775084257125854
+    }
+  },
+  {
+    "text": "How have you been?",
+    "intent": "how_you",
+    "intent_prediction": {
+      "name": "what_you_know",
+      "confidence": 0.7800939679145813
+    }
+  },
+  {
+    "text": "amazing",
+    "intent": "mood_great",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.34142425656318665
+    }
+  },
+  {
+    "text": "terrible",
+    "intent": "mood_unhappy",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.21796414256095886
+    }
+  },
+  {
+    "text": "namaste",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.46761614084243774
+    }
+  },
+  {
+    "text": "What are you up to",
+    "intent": "how_you",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.4644191265106201
+    }
+  },
+  {
+    "text": "very good",
+    "intent": "mood_great",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.5499480962753296
+    }
+  },
+  {
+    "text": "unhappy",
+    "intent": "mood_unhappy",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.3145315945148468
+    }
+  }
+]

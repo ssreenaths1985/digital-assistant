@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="109px" height="108px" viewBox="0 0 109 108" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Model</title>
+    <g id="Version-B" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Models---Empty-state" transform="translate(-791.000000, -356.000000)" fill-rule="nonzero">
+            <g id="Model" transform="translate(791.000000, 356.000000)">
+                <g id="bigLeft" transform="translate(27.000000, 0.000000)">
+                    <polygon id="Path-Copy" fill="#383C98" points="13 14 25.7659574 93 53 78.6718222 53 14"></polygon>
+                    <polygon id="Path-Copy-2" fill="#4448AA" points="0 14 0 42.6563556 0.325842697 60.5 0 78.6718222 27.3258427 93 27.3258427 14"></polygon>
+                    <polygon id="Path" fill="#5055DA" points="27 0 0 14 27 29 53.0102708 14"></polygon>
+                </g>
+                <g id="bigRight" transform="translate(53.674157, 14.000000)">
+                    <polygon id="Path" fill="#0162AA" points="14.3258427 15 27.0918001 94 54.3258427 79.6718222 54.3258427 15"></polygon>
+                    <polygon id="Path" fill="#0676C9" points="-6.57252031e-14 15 -6.57252031e-14 43.6563556 0.325842697 61.5 -6.57252031e-14 79.6718222 27.3258427 94 27.3258427 15"></polygon>
+                    <polygon id="Path" fill="#2997EA" points="54.3258427 15 26.3361135 -8.24229573e-13 0.325842697 15 27.3258427 29"></polygon>
+                </g>
+                <g id="small" transform="translate(0.000000, 43.000000)">
+                    <polygon id="Path" fill="#CC845E" points="14 14 26.7659574 65 54 50.4850185 54 14"></polygon>
+                    <polygon id="Path" fill="#E7A142" points="0 14 0 50.4850185 27 65 27 14"></polygon>
+                    <polygon id="Path" fill="#ECCE68" points="27 0 0 14 27 29 54 14"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

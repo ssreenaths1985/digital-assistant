@@ -1,0 +1,585 @@
+intents:
+- greet
+- how_you
+- mood_great
+- mood_unhappy
+- bot_challenge
+- what_you_know
+- thanks
+- mission_karmayogi
+- cbp
+- mdo
+- cbp_provider
+- piaa
+- fracing_toolkit
+- hubs
+- event_hub
+- career_hub
+- network_hub
+- learn_hub
+- discuss_hub
+- competency_hub
+- curator
+- tag
+- network_connections
+- knowledge_resource
+- badges
+- competency
+- unpublished_content
+- playlist
+- goals
+- module
+- capacity_building_unit
+- course
+- resource
+- program
+- cohorts
+- trending_tags
+- upvote
+- downvote
+- assessment_engine
+- dashboard
+- competency_dictionary
+- self_awareness_index
+- cbp_competency_score
+- cqs
+- coding_framework
+- competency_owning_department
+- competency_building_unit
+- cs_passbook
+- f_s_d_portfolio_assessments
+- organisation_score
+- tcs_score
+- competency_score
+- ipr_declaration
+- engagement_score
+- authoring_tool
+- trust_score
+- learning_course
+- search_content_by_filter
+- post_tags
+- cbp_matches_to_my_competencies
+- my_connections
+- all_tags
+- trending_discussions
+- recent_discussions
+- recent_contents
+- wpcas
+- add_competency
+- remove_competency
+- contact_details
+- upvoted_discussions
+- competency_list_type
+
+slots:
+  firstname:
+    type: unfeaturized
+    auto_fill: false
+  course:
+    type: unfeaturized
+    auto_fill: false
+  department:
+    type: unfeaturized
+    auto_fill: false
+  competency:
+    type: unfeaturized
+    auto_fill: false
+  filter:
+    type: unfeaturized
+    auto_fill: false
+  requested_slot:
+    type: unfeaturized
+    
+forms:
+    - contact_form
+    - learning_course_form
+    - add_competency_form
+    - remove_competency_form
+
+entities:
+- course
+- competency
+- competencytype
+- department
+- tag
+- filter
+- firstname
+
+actions:
+- utter_greet
+- utter_how_you
+- utter_mood_great
+- utter_mood_unhappy
+- utter_bot_challenge
+- utter_what_you_know
+- utter_thanks
+- fallback_action
+- utter_low_confidence
+- utter_out_of_scope
+- utter_mission_karmayogi
+- utter_cbp
+- utter_mdo
+- utter_cbp_provider
+- utter_piaa
+- utter_fracing_toolkit
+- utter_hubs
+- utter_competency_hub
+- utter_event_hub
+- utter_discuss_hub
+- utter_network_hub
+- utter_career_hub
+- utter_learn_hub
+- utter_curator
+- utter_tag
+- utter_competency
+- utter_network_connections
+- utter_knowledge_resource
+- utter_badges
+- utter_unpublished_content
+- utter_playlist
+- utter_goals
+- utter_module
+- utter_capacity_building_unit
+- utter_course
+- utter_resource
+- utter_program
+- utter_cohorts
+- utter_trending_tag
+- utter_upvote
+- utter_downvote
+- utter_ask_firstname
+- utter_ask_department
+- utter_ask_course
+- utter_ask_competency
+- utter_assessment_engine
+- utter_dashboard
+- utter_competency_dictionary
+- utter_self_awareness_index
+- utter_cbp_competency_score
+- utter_cqs
+- utter_coding_framework
+- utter_competency_owning_department
+- utter_competency_building_unit
+- utter_cs_passbook
+- utter_f_s_d_portfolio_assessments
+- utter_organisation_score
+- utter_tcs_score
+- utter_spv_score
+- utter_competency_score
+- utter_ipr_declaration
+- utter_engagement_score
+- utter_authoring_tool
+- utter_trust_score
+- action_search_content_by_filter
+- action_getall_tags
+- action_getlearning_course
+- action_getupvoted_discussions
+- action_getpost_tags
+- action_gettrending_discussions
+- action_getrecent_discussions
+- action_getmy_connections
+- action_getrecent_contents
+- action_gettrending_tags
+- action_getcbp_matches_to_my_competencies
+- action_getcompetency_list_type
+- utter_term_search
+- utter_wpcas
+responses:
+  utter_greet:
+  - custom:
+      blocks:
+      - type: response
+        text: Hi there !
+        intent: greet
+  utter_how_you:
+  - custom:
+      blocks:
+      - type: response
+        text: I am fine. Thank you
+        intent: how_you
+  utter_thanks:
+  - custom:
+      blocks:
+      - type: response
+        text: You are welcome. Anything else I can help you with?
+        intent: thanks
+  utter_bot_challenge:
+  - custom:
+      blocks:
+      - type: response
+        text: I am your Vega assistant.
+        intent: bot_challenge
+  utter_what_you_know:
+  - custom:
+      blocks:
+      - type: response
+        text: I currently have information about iGOT terminologies, courses and resources. I can also tell you about connections and contact details.
+        intent: what_you_know
+  utter_mood_great:
+  - custom:
+      blocks:
+      - type: response
+        text: you look so happy today
+        intent: mood_great
+  utter_mood_unhappy:
+  - custom:
+      blocks:
+      - type: response
+        text: how can i help you to cheer up?
+        intent: mood_unhappy
+  utter_mission_karmayogi:
+  - custom:
+      blocks:
+      - type: response
+        text: It is a new capacity-building scheme for civil servants aimed at upgrading the post-recruitment training mechanism of the officers and employees at all levels.
+        intent: mission_karmayogi
+  utter_cbp:
+  - custom:
+      blocks:
+      - type: response
+        text: Competency Building Product is a content comprising of resources, course, modules and programs which can be consumed by the government officials to enhance their competencies or attain new ones.
+        intent: cbp
+  utter_mdo:
+  - custom:
+      blocks:
+      - type: response
+        text: MDO stands for Ministry, Department, Organisation
+        intent: mdo
+  utter_cbp_provider:
+  - custom:
+      blocks:
+      - type: response
+        text: CBP providers are the entities who are responsible for providing CBP pertaining to various competencies which can be consumed by the government officials
+        intent: cbp_provider
+  utter_piaa:
+  - custom:
+      blocks:
+      - type: response
+        text: This score will be given to a learner taking the PIAA by the PIAA provider. It is comprised of two component - 1) the level at which the competency has been assessed (1-5); and 2) the proficiency within that level (e.g. within these levels, an individual is excellent, good, average, poor). Every official will have to complete the PIAA testing both within the first three months of them joining a new position for all competencies the position requires (if they have not already been tested for that competency in the last 5 years), and again every time the official completes a CBP funded by the government.
+        intent: piaa
+  utter_fracing_toolkit:
+  - custom:
+      blocks:
+      - type: response
+        text: FRAC tool
+        intent: fracing_toolkit
+  utter_hubs:
+  - custom:
+      blocks:
+      - type: response
+        text: Network hub, discussion hub etc
+        intent: hubs
+  utter_competency_hub:
+  - custom:
+      blocks:
+      - type: response
+        text: Competency hub is one of the key hubs in the iGOT platform detailing the roles, activities, competencies and knowledge resources for every position.
+        intent: competency_hub
+  utter_event_hub:
+  - custom:
+      blocks:
+      - type: response
+        text: Event hub provides officials with the opportunity to share ideas through in-person and live online events.
+        intent: event_hub
+  utter_career_hub:
+  - custom:
+      blocks:
+      - type: response
+        text: Career hub enables the government to solve the complex problem of encouraging lifelong learning, and finding the right person for the right job.
+        intent: career_hub
+  utter_network_hub:
+  - custom:
+      blocks:
+      - type: response
+        text: Network hub enables officials to discover others in the government who, given past experiences, recognisedcompetencies, and contribution to previous discussions on the platform, may be in a position to help solve a problem.
+        intent: network_hub
+  utter_learn_hub:
+  - custom:
+      blocks:
+      - type: response
+        text: Learning hub is one among the many hubs that facilitates competency building through suitable courses, assessments and learning recommendations (i.e. CBPs).
+        intent: learn_hub
+  utter_discuss_hub:
+  - custom:
+      blocks:
+      - type: response
+        text: Discuss hub provides officials with an opportunity to benefit from insights from previous discussions and to trigger new conversations around particular queries they may have.
+        intent: discuss_hub
+  utter_curator:
+  - custom:
+      blocks:
+      - type: response
+        text: Curator
+        intent: curator
+  utter_tag:
+  - custom:
+      blocks:
+      - type: response
+        text: TAGS
+        intent: tag
+  utter_network_connections:
+  - custom:
+      blocks:
+      - type: response
+        text: Connections are the people (governement officials) who you are connected to in the iGOT platform. Your connections will be able to see the posts you have made, your profile details, your activites until you mark those as private
+        intent: network_connections
+  utter_knowledge_resource:
+  - custom:
+      blocks:
+      - type: response
+        text: knowledge resources
+        intent: knowledge_resource
+  utter_badges:
+  - custom:
+      blocks:
+      - type: response
+        text: Badges
+        intent: badges
+  utter_competency:
+  - custom:
+      blocks:
+      - type: response
+        text: Competency
+        intent: competency
+  utter_unpublished_content:
+  - custom:
+      blocks:
+      - type: response
+        text: unpublished contents
+        intent: unpublished_content
+  utter_playlist:
+  - custom:
+      blocks:
+      - type: response
+        text: Playlist
+        intent: playlist
+  utter_module:
+  - custom:
+      blocks:
+      - type: response
+        text: Module
+        intent: module
+  utter_goals:
+  - custom:
+      blocks:
+      - type: response
+        text: Goals
+        intent: goals
+  utter_course:
+  - custom:
+      blocks:
+      - type: response
+        text: Course
+        intent: course
+  utter_resource:
+  - custom:
+      blocks:
+      - type: response
+        text: Resource
+        intent: resource
+  utter_program:
+  - custom:
+      blocks:
+      - type: response
+        text: program
+        intent: program
+  utter_capacity_building_unit:
+  - custom:
+      blocks:
+      - type: capacity_building_unit
+        text: program
+        intent: capacity_building_unit
+  utter_cohorts:
+  - custom:
+      blocks:
+      - type: response
+        text: Cohorts are the government officials who are currently going though the same CBPs as you.
+        intent: cohert
+  utter_trending_tag:
+  - custom:
+      blocks:
+      - type: response
+        text: Trending tag is a tag which is drawing the most attention or engagement of government officials in the iGOT platform. Tags which is mostly used which posting a discussion or the most searched tag qualities for being a trending tag.
+        intent: trending_tag
+  utter_upvote:
+  - custom:
+      blocks:
+      - type: response
+        text: Upvote is related to the discussion hub. Upvoting a post or comment means you agree to what is being disussed or you find the post/comment to be useful.
+        intent: upvote
+  utter_downvote:
+  - custom:
+      blocks:
+      - type: response
+        text: Downvote is the exact opposite of Upvote. Downvoting a post or comment means you do not agree to what is being disussed or you find the post/comment to be irrelevant and not so useful.
+        intent: downvote
+  utter_assessment_engine:
+  - custom:
+      blocks:
+      - type: response
+        text: Assessment Engine
+        intent: assessment_engine
+  utter_competency_dictionary:
+  - custom:
+      blocks:
+      - type: response
+        text: Competency Dictionary
+        intent: competency_dictionary
+  utter_dashboard:
+  - custom:
+      blocks:
+      - type: response
+        text: Dashboard
+        intent: dashboard
+  utter_self_awareness_index:
+  - custom:
+      blocks:
+      - type: response
+        text: Self Awareness Index
+        intent: self_awareness_index
+  utter_cbp_competency_score:
+  - custom:
+      blocks:
+      - type: response
+        text: This score will be given to a learner on the completion of a CBP and its corresponding assessments. It is based on the learner’s performance on these assessments and contributes to the TCS (thereby the overall competency score of an individual).
+        intent: cbp_competency_score
+  utter_cqs:
+  - custom:
+      blocks:
+      - type: response
+        text: Content Quality Score -The CQS is a combination of two scores - the first is provided through self-certification by the CBP provider; and the second is the score as assigned by a learner and auditor (as appointed by the SPV) of the CBP. When the two CQS are very close to each other, the trust score of the CBP becomes high.
+        intent: cqs
+  utter_coding_framework:
+  - custom:
+      blocks:
+      - type: response
+        text: Coding Framework
+        intent: coding_framework
+  utter_competency_owning_department:
+  - custom:
+      blocks:
+      - type: response
+        text: Competency Owning Department
+        intent: competency_owning_department
+  utter_competency_building_unit:
+  - custom:
+      blocks:
+      - type: response
+        text: Competency Building Unit
+        intent: competency_building_unit
+  utter_cs_passbook:
+  - custom:
+      blocks:
+      - type: response
+        text: CS Passbook
+        intent: cs_passbook
+  utter_f_s_d_portfolio_assessments:
+  - custom:
+      blocks:
+      - type: response
+        text: f s d portfolio assessments
+        intent: f_s_d_portfolio_assessments
+  utter_organisation_score:
+  - custom:
+      blocks:
+      - type: response
+        text: The organisation score is a composite score of every MDO, drawing upon many of the above- and aforementioned scores in addition to a score from the SPV from the quality audits. Every MDO will have an organisational score on the PM dashboard.
+        intent: organisation_score
+  utter_tcs_score:
+  - custom:
+      blocks:
+      - type: response
+        text: The TCS is an algorithmically derived score that combines C-CS and PIAA score, and is informed by the trust scores of the PIAA and CBP. Combined with the WPCAS, it contributes to the competency score.
+        intent: tcs_score
+  utter_spv_score:
+  - custom:
+      blocks:
+      - type: response
+        text: The SPV score will be the average of all MDOs’ organisational scores. The SPV exists to ensure the success of everyone else. The success of iGOT Karmayogi, therefore, is the success of its services (i.e. the SPV). This is the success of all the MDOs which, in turn, is the success of all the officials – when their competency gaps are narrowed, officials’ trust scores are increasing, the trust score of the CBP and PIAA providers increase, the impact scores of the CBPs increase, and so on. When all these scores are impacted, the organisational score increases – and thus, the SPV score also increases.
+        intent: spv_score
+  utter_competency_score:
+  - custom:
+      blocks:
+      - type: response
+        text: Maintained in the Competency Passbook (CP), the competency score is calculated against the competencies a learner has been tested for. It will be algorithmically derived by suitably weighting- the workplace competency assessment score (WPCAS) and the testing competency score (TCS).
+        intent: competency_score
+  utter_ipr_declaration:
+  - custom:
+      blocks:
+      - type: response
+        text: IPR Declaration
+        intent: ipr_declaration
+  utter_engagement_score:
+  - custom:
+      blocks:
+      - type: response
+        text: The engagement score measures the user’s engagement with the platform. It directly correlates with platform acceptability and subsequent interaction with the platform. The score is calculated by measuring the behaviours users exhibit on the platform through their relationship with self, others and the content.
+        intent: engagement_score
+  utter_authoring_tool:
+  - custom:
+      blocks:
+      - type: response
+        text: Authoring Tool
+        intent: authoring_tool
+  utter_trust_score:
+  - custom:
+      blocks:
+      - type: response
+        text: The trust score is calculated on the basis of the accuracy of a stakeholder’s claim using an accuracy meter. It is the extent to which claims made by a stakeholder are found to be accurate and are verified by the processes put into place by the iGOTplatform. Trust scores will be calculated for an array of stakeholders - individual learners, HR managers, auditors, CBP providers, PIAA providers, etc.
+        intent: trust_score
+
+  utter_low_confidence:
+  - custom:
+      blocks:
+      - type: response
+        text: Can you rephrase that please?
+        intent: low_confidence
+
+  utter_out_of_scope:
+  - custom:
+      blocks:
+      - type: response
+        text: Sorry, I couldn't understand you. I can help you only with the data related to iGOT.
+        intent: low_confidence
+  utter_wpcas:
+  - custom:
+      blocks:
+      - type: response
+        text: The WPCAS is an algorithmically derived score that combines the crowdsourced 360-degree assessment (self, manager, peer, subordinate) and is informed by the trust scores of those providing assessment.Combined with the TCS, it contributes to the competency score.
+        intent: wpcas
+  utter_ask_department:
+  - custom:
+      blocks:
+      - type: response
+        text: Can you specify a department to get more accurate details?
+        intent: contact_details
+  utter_ask_firstname:
+  - custom:
+      blocks:
+      - type: response
+        text: please specify a name to find the contact details
+        intent: contact_details
+
+  utter_ask_course:
+  - custom:
+      blocks:
+      - type: response
+        text: please specify a course
+        intent: learning_course
+
+  utter_ask_competency:
+  - custom:
+      blocks:
+      - type: response
+        text: please specify a competency
+        intent: add_competency
+
+  utter_term_search:
+  - custom:
+      blocks:
+      - type: response
+        text: term search api will be called
+        intent: low_confidence
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: false

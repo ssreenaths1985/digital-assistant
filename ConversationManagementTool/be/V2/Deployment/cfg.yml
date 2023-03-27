@@ -1,0 +1,21 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: mgmnt-console-config-env-file
+  namespace: default
+data:
+  dbuser: thor
+  dbpass: 
+  dbname: 
+  dbip: "40.113.200.227"
+  dbport: "3306"
+  eshost: es.rain.idc.tarento.com
+  esname: elasticsearch
+  esuser: 
+  espass: 
+  esport: "80"
+  gitbranch: storage
+  gituser: 
+  gitpass: 
+
+

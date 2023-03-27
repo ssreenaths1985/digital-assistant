@@ -1,0 +1,82 @@
+bezkoder:
+    app:
+        jwtExpirationMs: 84600000
+        jwtSecret: bezKoderSecretKey
+bot:
+    backup:
+        path: /home/varsha/TrainingModels/TrainingModels/thor_Backup/
+    baseDir:
+        path: /home/varsha/TrainingModels/TrainingModels/Dataset1
+    baseReports: /home/varsha/Pictures/Dataset2/bot/results
+    config:
+        file: /bot/config.yml
+    data:
+        nlu:
+            file: /bot/data/nlu.md
+        story:
+            file: /bot/data/stories.md
+    domain:
+        file: /bot/domain.yml
+    git:
+        clone:
+            path: /home/varsha/TrainingModels/
+    histogram: /home/varsha/Desktop/Results/histogram.txt
+    models: /bot/models/
+    production:
+        env: localhost
+    reports: /bot/reports/
+    results: /bot/results/
+    server:
+        ip: 40.113.200.227
+    staging:
+        env: localhost
+    training:
+        bots: /home/varsha/TrainingModels/TrainingModels/
+    compiler:
+        url: http://vega-compiler-service
+docker:
+    bot:
+        port: 5005
+        start:
+            message: '"bot has started"'
+    container:
+        path: /ubuntu/var/lib/docker/containers/
+    host:
+        url: tcp://localhost:2375
+    model:
+        path: /home/ubuntu/models/
+    router:
+        domains: /home/varsha/thor-assistant/Assistant/be/router/config/domain.js
+        domainsTemp: /home/varsha/thor-assistant/Assistant/be/router/config/domainTemp.js
+        url: http://localhost:4002
+elasticsearch:
+    cluster:
+        name: {$ESNAME}
+    host: {$ESHOST}
+    pass: {$ESPASS}
+    port: {$ESPORT}
+    user: {$ESUSER}
+git:
+    branch:
+        name: {$GITBRANCH}
+    repo:
+        name: {$GITREPO}
+    token: {$GITPASS}
+    username: {$GITUSER}
+jwt:
+    refreshExpirationDateInMs: 9000000
+path:
+    docker:
+        file: /home/varsha/Desktop/Results/Dockerfile
+server:
+    port: 4000
+spring:
+    datasource:
+        driver-class-name: com.mysql.jdbc.Driver
+        password: {$DBPASS}
+        url: jdbc:mysql://${DBIP}:${DBPORT}/${DBNAME}?useSSL=false
+        username: ${DBUSER}
+    jpa:
+        database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
+        hibernate:
+            ddl-auto: update

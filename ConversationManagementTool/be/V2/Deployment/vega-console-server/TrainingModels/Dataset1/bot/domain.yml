@@ -1,0 +1,98 @@
+intents:
+  - greet
+  - how_you
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - what_you_know
+  - thanks
+actions:
+- utter_greet
+- utter_how_you
+- utter_mood_great
+- utter_mood_unhappy
+- utter_bot_challenge
+- utter_what_you_know
+- utter_thanks
+- fallback_action
+- utter_low_confidence
+- utter_out_of_scope
+
+entites:
+
+
+responses:
+  utter_greet:
+  - custom:
+     blocks:
+     - type: "response"
+       text: "Hi there !"
+       intent: "greet"
+
+       
+
+  utter_how_you:
+  - custom:
+     blocks:
+     - type: "response"
+       text: "I am fine. Thank you"
+       intent: "how_you"
+
+  utter_thanks:
+  - custom:
+     blocks:
+     - type: "response"
+       text: "You are welcome. Anything else I can help you with?"
+       intent: "thanks"
+
+
+  utter_bot_challenge:
+  - custom:
+     blocks:
+     - type: "response"
+       text: "I am your Thor assistant."
+       intent: "bot_challenge"
+
+  utter_what_you_know:
+  - custom:
+     blocks:
+     - type: "response"
+       text: "I currently have information about import of gold, silver, alcohol and tobacco products. I can also tell you about clearance channels."
+       intent: "what_you_know"
+
+
+  utter_mood_great:
+  - custom:
+     blocks:
+     - type: "response"
+       text: "you look so happy today"
+       intent: "mood_great"
+
+  utter_mood_unhappy:
+  - custom:
+     blocks:
+     - type: "response"
+       text: "how can i help you to cheer up?"
+       intent: "mood_unhappy"
+       
+
+
+  utter_low_confidence:
+  - custom:
+     blocks:
+     - type: "response"
+       text: "Can you rephrase that please?"
+       intent: "low_confidence"
+
+
+  utter_out_of_scope:
+  - custom:
+     blocks:
+     - type: "response"
+       text: "Sorry, I could not understand you."
+       intent: "low_confidence"
+
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
